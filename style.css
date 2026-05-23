@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f172a;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 22px;
+    color: #cbd5e1;
+
+    margin-bottom: 20px;
+}
+
+header a {
+    background-color: #2563eb;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 24px;
+
+    border-radius: 8px;
+}
+
+section {
+    padding: 80px 20px;
+
+    max-width: 900px;
+
+    margin: auto;
+}
+
+section h2 {
+    font-size: 36px;
+
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+
+    line-height: 1.6;
+}
+
+.card-projeto {
+    background-color: #1e293b;
+
+    padding: 24px;
+
+    border-radius: 12px;
+
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+
+    padding: 30px;
+}
+
+.contato {
+    text-align: center;
+}
+
+.contato a {
+
+    display: block;
+
+    margin: 10px auto;
+
+    padding: 12px 20px;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    width: 200px;
+}
+
+.contato a:hover {
+
+    background-color: #1d4ed8;
+
+    transform: scale(1.03);
+
+    transition: 0.3s;
+}
